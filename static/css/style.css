@@ -34,3 +34,34 @@ h2 {
     color: #000;
     text-align: center;
 }
+
+/* ----------------------- Links */
+
+
+.links-section {
+    text-align: center;
+}
+
+.links-section ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.links-section li {
+    float: left;
+    padding: 2px 5px;
+}
+
+.link-item {
+    color: #000;
+    text-decoration: none;
+    margin: 2em 1em;  
+}
+
+.link-item:hover {
+    color: #808080;
+    text-decoration: line-through;  
+}
+
+
