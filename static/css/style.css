@@ -2,8 +2,8 @@
 
 body {
     font-family: 'Comfortaa', cursive;
-    background-color: #fff;
-    background: url("../images/background2.jpg") no-repeat fixed;
+    color: #fff;
+    background: url("../images/background3.jpg") no-repeat fixed;
     -webkit-background-size: cover;
      -moz-background-size: cover;
      -o-background-size: cover;
@@ -17,21 +17,21 @@ body {
 
 /* ----------------------- Header */
 
-#header-name {
-    color: #000;
+.header-name {
+    color: #fff;
     font-size: 3.5rem;
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 3rem;
     margin-bottom: 1rem;
 }
 
 hr {
-    color: #000;
+    color: #fff;
     width: 40%;
 }
 
-#header-title {
-    color: #000;
+.header-title {
+    color: #fff;
     text-align: center;
 }
 
@@ -55,7 +55,7 @@ hr {
 }
 
 .link-item {
-    color: #000;
+    color: #fff;
     text-decoration: none;
     margin: 2em 1em;  
 }
