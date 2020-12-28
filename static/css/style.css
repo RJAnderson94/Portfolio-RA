@@ -18,7 +18,7 @@ body {
 .header-name {
     font-family: 'Euphoria Script', cursive;
     color: #000;
-    font-size: 4.5rem;
+    font-size: 5.5rem;
     text-align: center;
     margin-bottom: 1rem;
 }
@@ -28,11 +28,12 @@ body {
     color: #000;
     text-align: center;
     font-weight: bold;
+    font-size: 3rem;
 }
 
 .avatar {
-    height: 6rem;
-    width: 6rem;
+    height: 7rem;
+    width: 7rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -64,6 +65,7 @@ body {
     text-decoration: none;
     margin: 2em 1em;
     font-weight: bold;
+    font-size: 2rem;
 }
 
 .link-item:hover {
@@ -89,6 +91,7 @@ body {
 
 .card-body {
     font-family: 'Poiret One', cursive;
+    font-size: 1.4rem;
 }
 
 .card-title {
