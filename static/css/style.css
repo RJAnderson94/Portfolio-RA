@@ -40,6 +40,36 @@ body {
     margin-top: 4rem;
 }
 
+.header-title span {
+    font-size: 2.5rem;
+}
+
+.lang-rotate:before{
+    content: '';
+    animation: animate infinite 8s;
+}
+/*-- HTML5 CSS3 Javascript jQuery Python */
+@keyframes animate{
+    0%{
+        content: 'HTML5';
+    }
+    20%{
+        content: 'CSS3';
+    }
+    40%{
+        content: 'Javascript';
+    }
+    60%{
+        content: 'jQuery';
+    }
+    80%{
+        content: 'Python';
+    }
+    100%{
+        content: 'HTML5';
+    }
+}
+
 /* ----------------------- Links */
 
 
@@ -73,9 +103,14 @@ body {
     text-decoration: line-through;  
 }
 
-.icon-link{
+.icon-link i {
     text-decoration: none;
     color: #000;
+    font-size: 2rem;
+}
+
+.icon-link i:hover {
+    color: #808080;
 }
 /* ----------------------- Projects */
 
