@@ -111,3 +111,9 @@ body {
     text-decoration: line-through;  
     font-weight: bold;
 }
+
+/* ----------------------- Footer */
+
+.list-inline-item p {
+    font-family: 'Poiret One', cursive;
+}
