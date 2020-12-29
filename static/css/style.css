@@ -151,6 +151,13 @@ body {
     font-weight: bold;
 }
 
+/* ----------------------- CV & Covering Letter*/
+
+.cv-download button{
+    align-self: center;
+}
+
+
 /* ----------------------- Footer */
 
 .list-inline-item p {
