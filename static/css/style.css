@@ -100,7 +100,7 @@ body {
 
 .link-item:hover {
     color: #808080;
-    text-decoration: line-through;  
+    text-decoration: none;
 }
 
 .icon-link i {
@@ -111,6 +111,7 @@ body {
 
 .icon-link i:hover {
     color: #808080;
+    text-decoration: none;
 }
 /* ----------------------- Projects */
 
@@ -147,7 +148,6 @@ body {
 
 .card-body a:hover {
     color: #808080;
-    text-decoration: line-through;  
     font-weight: bold;
 }
 
